@@ -1,0 +1,1794 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <title>Library_Dashboard</title>
+    <style>
+        body::before {
+            content: '';
+            display: block;
+            height: 60px;
+        }
+
+        Table {
+            display: table;
+            border: 5px;
+            margin: 5px solid blue;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar navbar-expand-md bg-dark navbar-dark text-light fixed-top">
+        <div class="container">
+            <a href="#logo" class="navbar-brand"><img src="img/my_logo.jpg" alt=""> LIBRARY DASHBOARD</a>f
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a href="#Library_Dashboard " class="nav-link">Library_Dashboard</a></li>
+                    <li class="nav-item"><a href="#About " class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#Books" class="nav-link">Books</a></li>
+                    <li class="nav-item"><a href="#Chapter" class="nav-link">Chapter</a></li>
+                    <li class="nav-item"><a href="#Reader" class="nav-link">Reader</a></li>
+                    <li class="nav-item"><a href="#Request" class="nav-link">Request</a></li>
+                    <li class="nav-item"><a href="#Log In" class="nav-link">Log In</a></li>
+                    <li class="nav-item"><a href="#Log Out" class="nav-link">Log Out</a></li>
+                    <li class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Learn</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#Chapter " class="dropdown-item">View Chapters</a></li>
+                            <li><a href="#Reader" class="dropdown-item"> where to go next</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <section id="Library_Dashboard">
+        <div class="container bg-light text-dark pt-5">
+            <div class="col-md py-4 align-items-center justify-content-center justify-content-between">
+                <div class="py-3">
+                    <div class="row d-flex justify-content-center align-items-center h-100">
+                        <form>
+                            <div class="text-center text-lg-start mt-4 pt-2">
+                                <button type="button" class="btn btn-primary btn-lg"
+                                    style="padding-left: 2.5rem; padding-right: 2.5rem;"><a href="#Log In"
+                                        class="btn btn-primary btn-lg">Login</a></button>
+                                <button type="button" class="btn btn-primary btn-lg"
+                                    style="padding-left: 2.5rem; padding-right: 2.5rem;"><a href="#Log In"
+                                        class="btn btn-primary btn-lg">Logout</a></button>
+                            </div>>
+                            <div class="text-center text-lg-start mt-4 pt-2">
+
+                                <Table striped bordered hover size="sm" variant="dark" class="table p-3">
+                                    <thead>
+                                        <tr>
+                                            <th>Number of Book</th>
+                                            <th> Name of Book</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>1</td>
+                                            <td>Atomic Habits</td>
+                                        </tr>
+                                        <tr>
+                                            <td>2</td>
+                                            <td>Arap Civilization</td>
+                                        </tr>
+                                        <tr>
+                                            <td>3</td>
+                                            <td>Good to Great</td>
+                                        </tr>
+                                        <tr>
+                                            <td>4</td>
+                                            <td>Children of the Alley</td>
+                                        </tr>
+                                        <tr>
+                                            <td>5</td>
+                                            <td>The little Prince</td>
+                                        </tr>
+                                        <tr>
+                                            <td>6</td>
+                                            <td>Pistachio Theory</td>
+                                        </tr>
+                                    </tbody>
+                                </Table>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <section id="Log In">
+        <div class="container bg-light text-dark">
+            <div class="col-md py-4 align-items-center justify-content-center">
+                <div class="py-3">
+                    <div class="row d-flex justify-content-center align-items-center h-100">
+                        <div class="col-md-9 col-lg-6 col-xl-6 my-lg-5 py-lg-5">
+                            <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-login-form/draw2.webp"
+                                class="img-fluid" alt="Sample image">
+                        </div>
+                        <div class="col-md-8 col-lg-6 col-xl-5 offset-xl-1 my-lg-5 py-lg-5">
+                            <form>
+                                <div
+                                    class="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
+                                    <p class="lead fw-normal mb-0 me-3">Sign in with</p>
+                                    <button type="button" class="btn btn-primary btn-floating mx-1">
+                                        <i class="fab fa-facebook-f"></i>
+                                    </button>
+
+                                    <button type="button" class="btn btn-primary btn-floating mx-1">
+                                        <i class="fab fa-twitter"></i>
+                                    </button>
+
+                                    <button type="button" class="btn btn-primary btn-floating mx-1">
+                                        <i class="fab fa-linkedin-in"></i>
+                                    </button>
+                                </div>
+
+                                <div class="divider d-flex align-items-center my-4">
+                                    <p class="text-center fw-bold mx-3 mb-0">Or</p>
+                                </div>
+
+                                <!-- Email input -->
+                                <div class="form-outline mb-4">
+                                    <input type="email" id="form3Example3" class="form-control form-control-lg"
+                                        placeholder="Enter a valid email address">
+                                    <label class="form-label" for="form3Example3" style="margin-left: 0px;">Email
+                                        address</label>
+                                    <div class="form-notch">
+                                        <div class="form-notch-leading" style="width: 9px;"></div>
+                                        <div class="form-notch-middle" style="width: 88.8px;"></div>
+                                        <div class="form-notch-trailing"></div>
+                                    </div>
+                                </div>
+
+                                <!-- Password input -->
+                                <div class="form-outline mb-3">
+                                    <input type="password" id="form3Example4" class="form-control form-control-lg"
+                                        placeholder="Enter password">
+                                    <label class="form-label" for="form3Example4"
+                                        style="margin-left: 0px;">Password</label>
+                                    <div class="form-notch">
+                                        <div class="form-notch-leading" style="width: 9px;"></div>
+                                        <div class="form-notch-middle" style="width: 64.8px;"></div>
+                                        <div class="form-notch-trailing"></div>
+                                    </div>
+                                </div>
+
+                                <!-- Phone  input -->
+                                <div class="form-outline mb-4">
+                                    <input type="number" id="form3Example5" class="form-control form-control-lg"
+                                        placeholder="Enter a valid Phone Number">
+                                    <label class="form-label" for="form3Example5" style="margin-left: 0px;">Phone
+                                        Number</label>
+                                    <div class="form-notch">
+                                        <div class="form-notch-leading" style="width: 9px;"></div>
+                                        <div class="form-notch-middle" style="width: 88.8px;"></div>
+                                        <div class="form-notch-trailing"></div>
+                                    </div>
+                                </div>
+                                <!-- Radio of Status -->
+                                <div>
+                                    <hr>
+                                    <label for="Select a Statu">Select a Statu</label>
+                                    <br>
+                                    <div>
+                                        <input id="Active" type="radio" name="Select a Statu" value="Active">
+                                        <label for="Active">Active</label>
+                                    </div>
+                                    <div>
+                                        <input id="In-Active" type="radio" name="Select a Statu" value="In-Active">
+                                        <label for="In-Active">In-Active</label>
+                                    </div>
+                                </div>
+
+                                <!-- Radio of Type  -->
+                                <div>
+                                    <hr>
+                                    <label for="Select Type">Select Type</label>
+                                    <br>
+                                    <div>
+                                        <input id="Admin" type="radio" name="Select a Type" value="Admin">
+                                        <label for="Admin">Admin</label>
+                                    </div>
+                                    <div>
+                                        <input id="Reader" type="radio" name="Select Type" value="Reader">
+                                        <label for="Reader">Reader</label>
+                                    </div>
+
+                                </div>
+                                <hr>
+
+                                <div class="d-flex justify-content-between align-items-center">
+                                    <!-- Checkbox -->
+                                    <div class="form-check mb-0">
+                                        <input class="form-check-input me-2" type="checkbox" value=""
+                                            id="form2Example3">
+                                        <label class="form-check-label" for="form2Example3">
+                                            Remember me
+                                        </label>
+                                    </div>
+                                    <a href="#!" class="text-body">Forgot password?</a>
+                                </div>
+
+                                <div class="text-center text-lg-start mt-4 pt-2">
+                                    <button type="button" class="btn btn-primary btn-lg"
+                                        style="padding-left: 2.5rem; padding-right: 2.5rem;"><a href="#About "
+                                            class="btn btn-primary btn-lg">Login</a></button>
+                                    <p class="small fw-bold mt-2 pt-1 mb-0">Don't have an account? <a href="#!"
+                                            class="link-danger">Register</a></p>
+                                </div>
+                        </div>
+                    </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About -->
+    <section id="About" class="bg-dark text-light text-center text-lg-start py-5">
+        <div class="container">
+            <div class="d-sm-flex align-items-center justify-content-center">
+                <div class="py-3">
+                    <div class="display-5"><span class="text-info">About The Library & Its Goals</span></div>
+                    <p class="py-1 lead">Libraries play a vital role in encouraging and promoting the process of
+                        learning and gaining knowledge. People who love reading can have access to a wide range of books
+                        and resources. Libraries provide educational resources to everyone. Reading improves social
+                        skills, knowledge, mental health, academic performance and offers numerous other benefits.
+                        Library is a common platform for people with diverse reading interests and capacities..</p>
+                    <button class="btn btn-info"><a href="#Books" class="btn btn-info"> Get Started</a></button>
+                </div>
+                <img src="img/Admin.svg" alt="">
+
+            </div>
+        </div>
+    </section>
+    <!--The Most borrowed Books -->
+    <section class="py-5" id="Books">
+        <div class="container">
+            <h2 class="text-center mb-4">
+                The Most borrowed Books
+            </h2>
+            <div class="row text-center">
+                <div class="col-sm">
+                    <div class="card bg-dark text-light">
+                        <img src="img/Atomic_Habits.jpg" alt="" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h4><span class="card-title text-info">Author : </span>James Clear</h4>
+                            <p class="card-text"><span class="card-title text-info">Discription : </span>This
+                                breakthrough book from is the most comprehensive guide on how to change your
+                                habits and get 1% better every day.</p>
+                            <a href="# Atomic Habits" class="btn btn-info">Borrow Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class=" card bg-dark text-light mb-2">
+                        <img src="img/image _(4).jpg" alt="" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h4><span class="card-title text-info">Author : </span>Justave Le Bon</h4>
+                            <p class="card-text"><span class="card-title text-info">Discription : </span>This
+                                is a concise and informative description of Arab civilization from pre-Islamic Arabia to
+                                Muslim Spain.</p>
+                            <a href="#Arab Civilization" class="btn btn-info">Borrow Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class=" card bg-dark text-light mb-3">
+                        <img src="img/summary-of-good-to-great.jpg" alt="" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h4><span class="card-title text-info">Author : </span>Jim Collins</h4>
+                            <p class="card-text"><span class="card-title text-info">Discription : </span>the defining
+                                management study of the nineties, showed how great companies triumph over all the time
+                                in the World.</p>
+                            <a href="#Good-to-Great" class="btn btn-info">Borrow Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class=" card bg-dark text-light mb-3">
+                        <img src="img/image_(6).jpg" alt="" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h4><span class="card-title text-info">Author : </span>Naguib Mahfouz</h4>
+                            <p class="card-text"><span class="card-title text-info">Discription : </span>It is one of
+                                the most important novel for Naguib Mahfouz and published in pyramids magazine in 1962.
+                            </p>
+                            <a href="#Children of Alley" class="btn btn-info">Borrow Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class=" card bg-dark text-light mb-3">
+                        <img src="img/The_little_prince.jpg" alt="" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h4><span class="card-title text-info">Author : </span>Antoine de Saint-Exupéry</h4>
+                            <p class="card-text"><span class="card-title text-info">Discription : </span>story follows a
+                                young prince who visits various planets which addressesed of loneliness, friendship, and
+                                love.</p>
+                            <a href="#the little prince" class="btn btn-info">Borrow Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm">
+                    <div class=" card bg-dark text-light mb-3">
+                        <img src="img/image_(8).jpg" alt="" class="card-img-top">
+                        <div class="card-body text-center">
+                            <h4><span class="card-title text-info">Author : </span>Fahd Amer Al-Ahmadi</h4>
+                            <p class="card-text"><span class="card-title text-info">Discription : </span>This book
+                                argues secret to success lies in the clarity of purpose and flexibility of Realy
+                                implementation now.</p>
+                            <a href="#pestachio theory" class="btn btn-info">Borrow Now</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm"></div>
+                <div class="col-sm"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Manage Books-->
+    <section id="Manage Books" class="py-5">
+        <div class="container bg-light text-dark pt-5">
+            <h2 class="text-center mb-5">
+                Manage Books
+            </h2>
+            <div class="col-md py-4 align-items-center justify-content-center justify-content-between">
+                <div class="py-3">
+                    <div class="row d-flex justify-content-center align-items-center h-100">
+                        <div class="text-center text-lg-start  pt-2">
+                            <div class="container bg-light text-dark pt-5">
+                                <div
+                                    class="col-md py-4 align-items-center justify-content-center justify-content-between">
+                                    <div class="py-3">
+                                        <div class="row d-flex justify-content-center align-items-center h-100">
+                                            <form>
+                                                <button type="button" class="btn btn-primary btn-lg"
+                                                    style="padding-left: 2.5rem; padding-right: 2.5rem;"><a
+                                                        href="#History of Request"
+                                                        class="btn btn-primary btn-lg">History of Request</a>
+                                                </button>
+                                                <button type="button" class="btn btn-primary btn-lg"
+                                                    style="padding-left: 2.5rem; padding-right: 2.5rem;"><a
+                                                        href="#Manage_Reader"
+                                                        class="btn btn-primary btn-lg">Manage_Reader</a>
+                                                </button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <Table striped bordered hover variant="dark" class="table p-3" p-20>
+                                <thead>
+                                    <tr>
+                                        <th>Name </th>
+                                        <th>Field</th>
+                                        <th>publication Date</th>
+                                        <th>PDF file</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Atomic Habits</td>
+                                        <td>Regular Routine</td>
+                                        <td>16/10/2018</td>
+                                        <td><a href="img/Atomic_Habits.pdf">Atomic_Habits</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Arab Civilization</td>
+                                        <td>Historical</td>
+                                        <td>1/12/1975</td>
+                                        <td><a href="img/Arab Civilization.pdf">Arab Civilization</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Good to Great</td>
+                                        <td>Compelling & informative</td>
+                                        <td>16/10/2001</td>
+                                        <td><a href="img/Good-to-Great_.pdf">Good to Great</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>Children of the Alley</td>
+                                        <td>Dialectical Transliteration</td>
+                                        <td>1959</td>
+                                        <td><a href="img/Children of the Alley.pdf">Children of the Alley</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>The Little Prince</td>
+                                        <td>Personality Issues</td>
+                                        <td>6/4/1943</td>
+                                        <td><a href="img/the_little_prince.pdf">The Little Prince</a></td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                    <tr>
+                                        <td>Pistachio Theory</td>
+                                        <td>Innovative Idea</td>
+                                        <td>25/9/2018</td>
+                                        <td><a href="img/Pistachio_Theory.pdf">Pistachio Theory</a>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </Table>
+                        </div>
+                        <form>
+                            <button type="button" class="btn btn-primary btn-lg"
+                                style="padding-left: 2.5rem; padding-right: 2.5rem;"><a href="#Add_Book"
+                                    class="btn btn-primary btn-lg">Add</a>
+                            </button>
+                            <button type="button" class="btn btn-primary btn-lg"
+                                style="padding-left: 2.5rem; padding-right: 2.5rem;"><a href="#Update_Book"
+                                    class="btn btn-primary btn-lg">Update</a>
+                            </button>
+                            <button type="button" class="btn btn-primary btn-lg"
+                                style="padding-left: 2.5rem; padding-right: 2.5rem;"><a href="#Delete_Book"
+                                    class="btn btn-primary btn-lg">Delete</a></button>
+                            <button type="button" class="btn btn-primary btn-lg"
+                                style="padding-left: 2.5rem; padding-right: 2.5rem;"><a href="#List_Book"
+                                    class="btn btn-primary btn-lg">List</a>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- Add Book -->
+    <section id="Add Book">
+        <div class="container bg-light text-dark pt-5">
+            <h2 class="text-center mb-5">
+                Add Book
+            </h2>
+            <div class="col-md py-4 align-items-center justify-content-center justify-content-between">
+                <div class="py-3">
+                    <div class="row d-flex justify-content-center align-items-center h-100">
+                        <div class="text-center text-lg-start mt-4 pt-2">
+
+                            <Table striped bordered hover size="sm" variant="dark" class="table p-3">
+                                <thead>
+                                    <tr>
+                                        <th>Number of Book</th>
+                                        <th> Name of Book</th>
+                                        <th>Field</th>
+                                        <th>publication Date</th>
+                                        <th>PDF file</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                        <td></td>
+                                    </tr>
+                                </tbody>
+                            </Table>
+                        </div>
+                        <form>
+                            <button type="button" class="btn btn-primary btn-lg"
+                                style="padding-left: 2.5rem; padding-right: 2.5rem;"><a href="#Add_Book"
+                                    class="btn btn-primary btn-lg">Add</a>
+                            </button>
+                            <button type="button" class="btn btn-primary btn-lg"
+                                style="padding-left: 2.5rem; padding-right: 2.5rem;"><a href="#Update_Book"
+                                    class="btn btn-primary btn-lg">Update</a>
+                            </button>
+                            <button type="button" class="btn btn-primary btn-lg"
+                                style="padding-left: 2.5rem; padding-right: 2.5rem;"><a href="#Delete_Book"
+                                    class="btn btn-primary btn-lg">Delete</a></button>
+                            <button type="button" class="btn btn-primary btn-lg"
+                                style="padding-left: 2.5rem; padding-right: 2.5rem;"><a href="#List_Book"
+                                    class="btn btn-primary btn-lg">List</a>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Manage chapter -->
+    <section id="Manage chapter" class="py-5">
+        <div class="container bg-light text-dark pt-5">
+            <h2 class="text-center mb-5">
+                Manage chapter
+            </h2>
+            <div class="col-md py-4 align-items-center justify-content-center justify-content-between">
+                <div class="py-3">
+                    <div class="row d-flex justify-content-center align-items-center h-100">
+                        <div class="text-center text-lg-start mt-4 pt-2">
+                                        <Table striped bordered hover size="sm" variant="dark" class="table p-3">
+                                            <thead>
+                                                <tr>
+                                                    <th> Name of Book</th>
+                                                    <th> Title of Chapter</th>
+                                                    <th>description of Chapter</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                <tr>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                                <tr>
+                                                    <td></td>
+                                                    <td></td>
+                                                    <td></td>
+                                                </tr>
+                                            </tbody>
+                                        </Table>
+                                    </div>
+                                </tbody>
+                            </Table>
+                        </div>
+                        <form>
+                            <button type="button" class="btn btn-primary btn-lg"
+                                style="padding-left: 2.5rem; padding-right: 2.5rem;">OK
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+    <!-- Atomic Habits -->
+    <section id=" Atomic Habits">
+        <div class="container bg-light text-dark pt-5">
+            <h2 class="text-center mb-5">
+                Atomic Habits
+            </h2>
+            <div class="col-md py-4 align-items-center justify-content-center justify-content-between">
+                <div class="py-3">
+                    <div class="row d-flex justify-content-center align-items-center h-100">
+                        <div class="text-center text-lg-start mt-4 pt-2">
+
+                            <Table striped bordered hover size="sm" variant="dark" class="table p-3">
+                                <thead>
+                                    <tr>
+                                        <th> Number of Chapter</th>
+                                        <th> Title</th>
+                                        <th>Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>The Surprising Power of Atomic Habits</td>
+                                        <td>Build a system of atomic habits by implementing regular routines that are small and easy to do to result in compound growth.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>How Your Habits Shape Your Identity (and Vice Versa)</td>
+                                        <td>Shape your habits around who you want to become.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>How to Build Better Habits in 4 Simple Steps</td>
+                                        <td>Your habits are shaped by the systems in your life and become automated when they take little energy and effort. The Four laws of behaviour change: make it obvious, make it attractive, make it easy, make it satisfying.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td> The Man Who Didn’t Look Right</td>
+                                        <td>Be aware of your habits as some we may do unconsciously, use the pointing and calling technique to consciously acknowledge behaviour.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>The Best Way to Start a New Habit</td>
+                                        <td>Use implementation intention by setting a clear time and place for your habit and add on to an existing habit through habit stacking.
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td> Motivation is Overrated; Environment Often Matters More</td>
+                                        <td>Habit cues are influenced by environments and context, make them obvious to trigger habits or build habits in a new environment.</td>
+                                    </tr><tr>
+                                        <td>7</td>
+                                        <td>The Secret to Self-Control</td>
+                                        <td>Self-control is a short term strategy; optimise your environment to make good habit cues obvious and bad habit cues invisible.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td>How to Make a Habit Irresistible</td>
+                                        <td>Temptation bundling pairs a habit you need to do with a habit you want to do to make it more attractive where the anticipation of reward is driven by dopamine.
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>9</td>
+                                        <td> The Role of Family and Friends in Shaping Your Habits</td>
+                                        <td>We imitate the habits of the close, the many and the powerful. Join a culture with your desired behaviour and a shared interest.
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>10</td>
+                                        <td>How to Find and Fix the Casuses of Your Bad Habits</td>
+                                        <td>Habits are associated with emotions, to quit a bad habit make it seem unattractive and to create a motivation ritual by doing something that evokes good feelings before a difficult habit.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>11</td>
+                                        <td> Walk Slowly, but Never Backward</td>
+                                        <td>Motion is useful, action will deliver an outcome and repetition makes an action more automated.
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>12</td>
+                                        <td> The Law of Least Effort</td>
+                                        <td>Redesign your life to create less friction to good behaviours and more friction to bad behaviours.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>13</td>
+                                        <td>How to Stop Procrastinating by Using the Two-Minute Rule</td>
+                                        <td>Implement a habit that takes only 2 minutes and then over time build on it.
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>14</td>
+                                        <td> How to Make Good Habits Inevitable and Bad Habits Impossible</td>
+                                        <td>Future-proof your habits by using commitment devices to make bad habits difficult in the present and automating your desired habits.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>15</td>
+                                        <td>The Cardinal Rule of Behaviour Change</td>
+                                        <td>If you enjoy a habit you will repeat it, link an immediate reward to the habit to initially incentivise the habit and over time it becomes your identity and the intrinsic rewards will sustain it.
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>16</td>
+                                        <td> How to Stick with Good Habits Every Day</td>
+                                        <td>“The first mistake is never the one that ruins you” - habit trackers can be used to measure progress and make the habit satisfying.
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>17</td>
+                                        <td>How an Accountability Partner Can Change Everything</td>
+                                        <td>Make a habit unsatisfying by using techniques such as an accountability partner and/or habit contracts with negative consequences for failing to put your habit into action.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>18</td>
+                                        <td> The Trulh About Talent (When Genes Matter and When They Don’t)</td>
+                                        <td>Tailor your habits around your personality and use explore/exploit trade offs to find areas of strength.
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>19</td>
+                                        <td>The Goldilocks Rule: How to Stay Motivated in Life and Work</td>
+                                        <td>Work on tasks at the edge of your current ability, in this zone you can achieve a flow state and also learn to enjoy the task even when you’re bored of it.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>20</td>
+                                        <td> The Downside of Creating Good Habits</td>
+                                        <td>It is important to reflect and review to prevent building mistakes into habits and to avoid holding tightly onto an identity to encourage long term growth.</td>
+                                    </tr>
+                                </tbody>
+                            </Table>
+                        </div>
+                        <form>
+                            <button type="button" class="btn btn-primary btn-lg"
+                                style="padding-left: 2.5rem; padding-right: 2.5rem;"><a href="#Manage chapter"
+                                    class="btn btn-primary btn-lg">Manage</a>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- Arab Civilization  -->
+    <section id="Arab Civilization">
+        <div class="container bg-light text-dark pt-5">
+            <h2 class="text-center mb-5">
+                Arab Civilization
+            </h2>
+            <div class="col-md py-4 align-items-center justify-content-center justify-content-between">
+                <div class="py-3">
+                    <div class="row d-flex justify-content-center align-items-center h-100">
+                        <div class="text-center text-lg-start mt-4 pt-2">
+
+                            <Table striped bordered hover size="sm" variant="dark" class="table p-3">
+                                <thead>
+                                    <tr>
+                                        <th> Number of Chapter</th>
+                                        <th> Title</th>
+                                        <th>Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Arab Civilization</td>
+                                        <td>the Arab world stretches some 5,000 miles-nearly twice the distance between New York and San Francisco-from the Atlantic coast of north-ern Africa in the west to Arabian sea in East</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Islam</td>
+                                        <td>Muslims consider Muhammed to be the last in a series of prophets.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Arabic Language</td>
+                                        <td>While most people know that Arabic is the written and Spoken Languageof more than 150 million inhabitants of Arab World.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td> Arabic Riting & Colligraphy</td>
+                                        <td>Arabic calligraphy is characterized by flowing patterns and intricate geometrical designs.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>Education</td>
+                                        <td>for some five hundred years, Arab learning and scholarship played a major role in education development in west.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td> Chemistry</td>
+                                        <td>from the fource to the twelfth centuries,A.D.the original chemical research and writing in europe was virtually non-existent.</td>
+                                    </tr><tr>
+                                        <td>7</td>
+                                        <td>Music</td>
+                                        <td>music of Arabs gradually influenced the west. </td>
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td>Literature</td>
+                                        <td>Heroic peotry of noble tribes of pre islamic Arabia 
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>9</td>
+                                        <td> The Role of Family and Friends in Shaping Your Habits</td>
+                                        <td>We imitate the habits of the close, the many and the powerful. Join a culture with your desired behaviour and a shared interest.
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>10</td>
+                                        <td>Mathematics &Astronomy</td>
+                                        <td>Habits are associated with emotions, to quit a bad habit make it seem unattractive and to create a motivation ritual by doing something that evokes good feelings before a difficult habit.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>11</td>
+                                        <td> Physics</td>
+                                        <td>Motion is useful, action will deliver an outcome and repetition makes an action more automated.
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>12</td>
+                                        <td> Medicine</td>
+                                        <td>Redesign your life to create less friction to good behaviours and more friction to bad behaviours.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>13</td>
+                                        <td> Architecture</td>
+                                        <td>Redesign your life to create less friction to good behaviours and more friction to bad behaviours.</td>
+                                    </tr>
+                                </tbody>
+                            </Table>
+                        </div>
+                        <form>
+                            <button type="button" class="btn btn-primary btn-lg"
+                                style="padding-left: 2.5rem; padding-right: 2.5rem;"><a href="#Manage chapter"
+                                    class="btn btn-primary btn-lg">Manage</a>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+      <!-- Children of Alley  -->
+      <section id="Children of Alley">
+        <div class="container bg-light text-dark pt-5">
+            <h2 class="text-center mb-5">
+                Children of Alley
+            </h2>
+            <div class="col-md py-4 align-items-center justify-content-center justify-content-between">
+                <div class="py-3">
+                    <div class="row d-flex justify-content-center align-items-center h-100">
+                        <div class="text-center text-lg-start mt-4 pt-2">
+
+                            <Table striped bordered hover size="sm" variant="dark" class="table p-3">
+                                <thead>
+                                    <tr>
+                                        <th> Number of Chapter</th>
+                                        <th> Title</th>
+                                        <th>Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>21 September 1959</td>
+                                        <td>Monthly Total Return: The total return to shareholders in a given
+                                            month, includingdividends reinvested, for an individual security.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>No Taboos in Literature </td>
+                                        <td>"Searching for Profits at Bethlehem," New York Times</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Abd al-Nasser Asks a Question</td>
+                                        <td>, Good to Great
+                                            research project, summer 1998,CRSP financial data analysis</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>An Angry Message</td>
+                                        <td>The Rise and Decline ofthe Great Atlantic and Pacific
+                                            Tea Company</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>How Do Sheikhs Read Literature? </td>
+                                        <td>"Tandy Agrees to Buy Assets ofEckerd Unit," Wall Street Journal, July 5,
+                                            1985, A4.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td> A Prisoner of Symbolism?</td>
+                                        <td>. Bernard H. Semler, "Measuring Operating Performance," 1.Article sent
+                                            to the researchteam directly from Mr. Semler</td>
+                                    </tr><tr>
+                                        <td>7</td>
+                                        <td>The Moral Education of the Citizen</td>
+                                        <td>. We believe that wewill continue to incur oper
+                                            ating and net losses for at leastthe nextfour years (and possibly longer)
+                                            and that the rate at which we will incur such losses will increase signifi
+                                            cantlyfrom current levels.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td>I Am Not a Philosopher</td>
+                                        <td>1. Quoted by Lorin Maazel, music director, New York Philharmonic,
+                                            "Maazel Is to Lead Philharmonic," New York Times, January 30, 2001,
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>9</td>
+                                        <td> The Search for the Manuscript</td>
+                                        <td>Harold Mansfield, Vision: A Saga of the Sky (NewYork: Madison Pub
+                                            lishingAssociates, 1986), 167-201
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>10</td>
+                                        <td>The Ultimate Origin</td>
+                                        <td>Monthly Total Return: The total return to shareholders in a given
+                                            month, includingdividends reinvested, for an individual security.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>11</td>
+                                        <td>13 October 1988 </td>
+                                        <td>"Searching for Profits at Bethlehem," New York Times</td>
+                                    </tr>
+                                    <tr>
+                                        <td>12</td>
+                                        <td>14 October 1994 </td>
+                                        <td>, Good to Great
+                                            research project, summer 1998,CRSP financial data analysis</td>
+                                    </tr>
+                                    <tr>
+                                        <td>13</td>
+                                        <td>Confronting Sayyid Qutb</td>
+                                        <td>The Rise and Decline ofthe Great Atlantic and Pacific
+                                            Tea Company</td>
+                                    </tr>
+                                    <tr>
+                                        <td>14</td>
+                                        <td>Publication by Force Majeure</td>
+                                        <td>"Tandy Agrees to Buy Assets ofEckerd Unit," Wall Street Journal, July 5,
+                                            1985, A4.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>15</td>
+                                        <td>30 August 2006</td>
+                                        <td>. Bernard H. Semler, "Measuring Operating Performance," 1.Article sent
+                                            to the researchteam directly from Mr. Semler</td>
+                                    </tr><tr>
+                                        <td>16</td>
+                                        <td>The Waste Land</td>
+                                        <td>. We believe that wewill continue to incur oper
+                                            ating and net losses for at leastthe nextfour years (and possibly longer)
+                                            and that the rate at which we will incur such losses will increase signifi
+                                            cantlyfrom current levels.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>17</td>
+                                        <td>The Neglected Commandments</td>
+                                        <td>1. Quoted by Lorin Maazel, music director, New York Philharmonic,
+                                            "Maazel Is to Lead Philharmonic," New York Times, January 30, 2001,
+                                        </td>
+                                </tbody>
+                            </Table>
+                        </div>
+                        <form>
+                            <button type="button" class="btn btn-primary btn-lg"
+                                style="padding-left: 2.5rem; padding-right: 2.5rem;"><a href="#Manage chapter"
+                                    class="btn btn-primary btn-lg">Manage</a>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+      <!-- Good-to-Great  -->
+      <section id="Good-to-Great">
+        <div class="container bg-light text-dark pt-5">
+            <h2 class="text-center mb-5">
+                Good-to-Great
+            </h2>
+            <div class="col-md py-4 align-items-center justify-content-center justify-content-between">
+                <div class="py-3">
+                    <div class="row d-flex justify-content-center align-items-center h-100">
+                        <div class="text-center text-lg-start mt-4 pt-2">
+
+                            <Table striped bordered hover size="sm" variant="dark" class="table p-3">
+                                <thead>
+                                    <tr>
+                                        <th> Number of Chapter</th>
+                                        <th> Title</th>
+                                        <th>Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>: Good Is the Enemy ofGreat</td>
+                                        <td>Monthly Total Return: The total return to shareholders in a given
+                                            month, includingdividends reinvested, for an individual security.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Level 5Leadership</td>
+                                        <td>"Searching for Profits at Bethlehem," New York Times</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>First Who ... Then What</td>
+                                        <td>, Good to Great
+                                            research project, summer 1998,CRSP financial data analysis</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td> Confront the Brutal Facts
+                                            (Yet Never Lose Faith)</td>
+                                        <td>The Rise and Decline ofthe Great Atlantic and Pacific
+                                            Tea Company</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>The Hedgehog Concept
+                                            (Simplicity within the Three Circles)</td>
+                                        <td>"Tandy Agrees to Buy Assets ofEckerd Unit," Wall Street Journal, July 5,
+                                            1985, A4.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td> ACulture ofDiscipline</td>
+                                        <td>. Bernard H. Semler, "Measuring Operating Performance," 1.Article sent
+                                            to the researchteam directly from Mr. Semler</td>
+                                    </tr><tr>
+                                        <td>7</td>
+                                        <td>Technology Accelerators</td>
+                                        <td>. We believe that wewill continue to incur oper
+                                            ating and net losses for at leastthe nextfour years (and possibly longer)
+                                            and that the rate at which we will incur such losses will increase signifi
+                                            cantlyfrom current levels.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td>The Flywheel and the DoomLoop</td>
+                                        <td>1. Quoted by Lorin Maazel, music director, New York Philharmonic,
+                                            "Maazel Is to Lead Philharmonic," New York Times, January 30, 2001,
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>9</td>
+                                        <td> : From Good to Great to Built to Last</td>
+                                        <td>Harold Mansfield, Vision: A Saga of the Sky (NewYork: Madison Pub
+                                            lishingAssociates, 1986), 167-201
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </Table>
+                        </div>
+                        <form>
+                            <button type="button" class="btn btn-primary btn-lg"
+                            style="padding-left: 2.5rem; padding-right: 2.5rem;"><a href="#Manage chapter"
+                                class="btn btn-primary btn-lg">Manage</a>
+                        </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!--the little prince -->
+    <section id="the little prince">
+        <div class="container bg-light text-dark pt-5">
+            <h2 class="text-center mb-5">
+                the little prince
+            </h2>
+            <div class="col-md py-4 align-items-center justify-content-center justify-content-between">
+                <div class="py-3">
+                    <div class="row d-flex justify-content-center align-items-center h-100">
+                        <div class="text-center text-lg-start mt-4 pt-2">
+
+                            <Table striped bordered hover size="sm" variant="dark" class="table p-3">
+                                <thead>
+                                    <tr>
+                                        <th> Number of Chapter</th>
+                                        <th> Title</th>
+                                        <th>Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Chapter 1</td>
+                                        <td>we are introduced to the narrator, a pilot, and his
+                                            ideas about grown-ups..</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Chapter 2</td>
+                                        <td>the narrator crashes in the desert and makes the
+                                            acquaintance of the little prince</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Chapter 3</td>
+                                        <td>the narrator learns more about from where the
+                                            little prince came ...</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>Chapter 4</td>
+                                        <td>the narrator speculates as to which asteroid from
+                                            which the little prince came...</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>Chapter 5</td>
+                                        <td>we are warned as to the dangers of the baobabs
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td> Chapter 6</td>
+                                        <td>the little prince and the narrator talk about sunsets</td>
+                                    </tr><tr>
+                                        <td>7</td>
+                                        <td>Chapter 7</td>
+                                        <td>Self-control is a short term strategy; optimise your environment to make good habit cues obvious and bad habit cues invisible.</td>
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td>Chapter 8</td>
+                                        <td>the rose arrives at the little prince's planet
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>9</td>
+                                        <td> Chapter 9</td>
+                                        <td>the little prince leaves his planet
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>10</td>
+                                        <td>Chapter 10</td>
+                                        <td>the little prince visits the king</td>
+                                    </tr>
+                                    <tr>
+                                        <td>11</td>
+                                        <td>Chapter 11</td>
+                                        <td>the little prince visits the conceited man
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>12</td>
+                                        <td> Chapter 12</td>
+                                        <td>the little prince visits the tippler</td>
+                                    </tr>
+                                    <tr>
+                                        <td>13</td>
+                                        <td>Chapter 13</td>
+                                        <td>the little prince visits the businessman..
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>14</td>
+                                        <td>Chapter 14</td>
+                                        <td>the little prince visits the lamplighter</td>
+                                    </tr>
+                                    <tr>
+                                        <td>15</td>
+                                        <td>Chapter 15</td>
+                                        <td>the little prince visits the geographer
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>16</td>
+                                        <td>Chapter 16</td>
+                                        <td>the narrator discusses the Earth's lamplighters
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>17</td>
+                                        <td>Chapter 17</td>
+                                        <td>the little prince goes looking for men and meets a
+                                            flower</td>
+                                    </tr>
+                                    <tr>
+                                        <td>18</td>
+                                        <td> Chapter 18</td>
+                                        <td>the little prince climbs a mountain range..
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>19</td>
+                                        <td>Chapter 19</td>
+                                        <td>the little prince discovers a garden of roses</td>
+                                    </tr>
+                                    <tr>
+                                        <td>20</td>
+                                        <td>Chapter 20</td>
+                                        <td>the little prince befriends the fox</td>
+                                    </tr>
+                                    <tr>
+                                        <td>21</td>
+                                        <td>Chapter 21</td>
+                                        <td>the little prince encounters a railway switchman</td>
+                                    </tr>
+                                    <tr>
+                                        <td>22</td>
+                                        <td>Chapter 22</td>
+                                        <td>the little prince encounters a merchant</td>
+                                    </tr>
+                                    <tr>
+                                        <td>23</td>
+                                        <td>Chapter 23</td>
+                                        <td>the narrator and the little prince, thirsty, hunt for
+                                            a well in the desert</td>
+                                    </tr>
+                                    <tr>
+                                        <td>24</td>
+                                        <td>Chapter 24</td>
+                                        <td>finding a well, the narrator and the little prince
+                                            discuss his return to his planet .</td>
+                                    </tr>
+                                    <tr>
+                                        <td>25</td>
+                                        <td>Chapter 25</td>
+                                        <td>the little prince converses with the snake; the
+                                            little prince consoles the narrator; the little prince
+                                            returns to his planet
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>26</td>
+                                        <td> Chapter 26</td>
+                                        <td>the narrator's afterthoughts</td>
+                                    </tr>
+                                </tbody>
+                            </Table>
+                        </div>
+                        <form>
+                            <button type="button" class="btn btn-primary btn-lg"
+                            style="padding-left: 2.5rem; padding-right: 2.5rem;"><a href="#Manage chapter"
+                                class="btn btn-primary btn-lg">Manage</a>
+                        </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!--pestachio theory -->
+    <section id="pestachio theory">
+        <div class="container bg-light text-dark pt-5">
+            <h2 class="text-center mb-5">
+                pestachio theory
+            </h2>
+            <div class="col-md py-4 align-items-center justify-content-center justify-content-between">
+                <div class="py-3">
+                    <div class="row d-flex justify-content-center align-items-center h-100">
+                        <div class="text-center text-lg-start mt-4 pt-2">
+
+                            <Table striped bordered hover size="sm" variant="dark" class="table p-3">
+                                <thead>
+                                    <tr>
+                                        <th> Number of Chapter</th>
+                                        <th> Title</th>
+                                        <th>Description</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Chapter 1</td>
+                                        <td>introduction..</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Chapter 2</td>
+                                        <td>what is your plan in life?</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Chapter 3</td>
+                                        <td>Know your self</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>Chapter 4</td>
+                                        <td>capsules worth trying</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>Chapter 5</td>
+                                        <td>may you are not intelligent as you think
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td> Chapter 6</td>
+                                        <td>blind spots in your head</td>
+                                    </tr><tr>
+                                        <td>7</td>
+                                        <td>Chapter 7</td>
+                                        <td>intelligence is the intelligent behavioral</td>
+                                    </tr>
+                                    <tr>
+                                        <td>8</td>
+                                        <td>Chapter 8</td>
+                                        <td>stories of self development
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>9</td>
+                                        <td> Chapter 9</td>
+                                        <td>20 rules in home
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>10</td>
+                                        <td>Chapter 10</td>
+                                        <td>Good luck techniques</td>
+                                    </tr>
+                                  
+                                </tbody>
+                            </Table>
+                        </div>
+                        <form>
+                            <button type="button" class="btn btn-primary btn-lg"
+                                style="padding-left: 2.5rem; padding-right: 2.5rem;"><a href="#Manage chapter"
+                                    class="btn btn-primary btn-lg">Manage</a>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+
+    <!-- History of Request -->
+    <section id="History of Request" class="py-5">
+        <div class="container bg-light text-dark pt-5">
+            <h2 class="text-center mb-5">
+                History of Request
+            </h2>
+            <div class="col-md py-4 align-items-center justify-content-center justify-content-between">
+                <div class="py-3">
+                    <div class="row d-flex justify-content-center align-items-center h-100">
+                        <div class="text-center text-lg-start mt-4 pt-2">
+                            <Table striped bordered hover variant="dark" class="table p-3" p-20>
+                                <thead>
+                                    <tr>
+                                        <th>Request Number </th>
+                                        <th>Book Name</th>
+                                        <th>Borrowers</th>
+                                        <th>Accept/Decline Request</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Atomic Habits</td>
+                                        <td>Marwa Saeed</td>
+                                        <td>
+                                            <div class="text-center text-lg-start mt-4 pt-2">
+                                                <button type="button" class="btn btn-primary "
+                                                    style="padding-left: 2.5rem; padding-right: 2.5rem;">Accept</button>
+                                                <button type="button" class="btn btn-primary"
+                                                    style="padding-left: 2.5rem; padding-right: 2.5rem;">Decline</button>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Arab Civilization</td>
+                                        <td>Mariam Ahmed</td>
+                                        <td>
+                                            <div class="text-center text-lg-start mt-4 pt-2">
+                                                <button type="button" class="btn btn-primary"
+                                                    style="padding-left: 2.5rem; padding-right: 2.5rem;">Accept</button>
+                                                <button type="button" class="btn btn-primary"
+                                                    style="padding-left: 2.5rem; padding-right: 2.5rem;">Decline</button>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Good-to-Great</td>
+                                        <td>Hossam Mostafa</td>
+                                        <td>
+                                            <div class="text-center text-lg-start mt-4 pt-2">
+                                                <button type="button" class="btn btn-primary"
+                                                    style="padding-left: 2.5rem; padding-right: 2.5rem;">Accept</button>
+                                                <button type="button" class="btn btn-primary"
+                                                    style="padding-left: 2.5rem; padding-right: 2.5rem;">Decline</button>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>The Little Prince</td>
+                                        <td>Ahmed Walid</td>
+                                        <td>
+                                            <div class="text-center text-lg-start mt-4 pt-2">
+                                                <button type="button" class="btn btn-primary"
+                                                    style="padding-left: 2.5rem; padding-right: 2.5rem;">Accept</button>
+                                                <button type="button" class="btn btn-primary"
+                                                    style="padding-left: 2.5rem; padding-right: 2.5rem;">Decline</button>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>Children of the Alley</td>
+                                        <td>Doha Yahya</td>
+                                        <td>
+                                            <div class="text-center text-lg-start mt-4 pt-2">
+                                                <button type="button" class="btn btn-primary"
+                                                    style="padding-left: 2.5rem; padding-right: 2.5rem;">Accept</button>
+                                                <button type="button" class="btn btn-primary"
+                                                    style="padding-left: 2.5rem; padding-right: 2.5rem;">Decline</button>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>Pistachio Theory</td>
+                                        <td>Karim Adel</td>
+                                        <td>
+                                            <div class="text-center text-lg-start mt-4 pt-2">
+                                                <button type="button" class="btn btn-primary"
+                                                    style="padding-left: 2.5rem; padding-right: 2.5rem;">Accept</button>
+                                                <button type="button" class="btn btn-primary "
+                                                    style="padding-left: 2.5rem; padding-right: 2.5rem;">Decline</button>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </Table>
+                        </div>
+                        <form>
+                            <button type="button" class="btn btn-primary btn-lg"
+                                style="padding-left: 2.5rem; padding-right: 2.5rem;"><a href="#Add_Book"
+                                    class="btn btn-primary btn-lg">Add</a>
+                            </button>
+                            <button type="button" class="btn btn-primary btn-lg"
+                                style="padding-left: 2.5rem; padding-right: 2.5rem;"><a href="#Update_Book"
+                                    class="btn btn-primary btn-lg">Update</a>
+                            </button>
+                            <button type="button" class="btn btn-primary btn-lg"
+                                style="padding-left: 2.5rem; padding-right: 2.5rem;"><a href="#Delete_Book"
+                                    class="btn btn-primary btn-lg">Delete</a></button>
+                            <button type="button" class="btn btn-primary btn-lg"
+                                style="padding-left: 2.5rem; padding-right: 2.5rem;"><a href="#List_Book"
+                                    class="btn btn-primary btn-lg">List</a>
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+    <!-- manage reader -->
+    <section id="Manage_Reader">
+        <div class="container">
+            <h2 class="text-center mb-5">
+                Manage Reader
+            </h2>
+            <Table id="List" striped bordered hover variant="dark" class="table p-3" p-20>
+                <thead>
+                    <tr>
+                        <th> Number </th>
+                        <th>Reader_Name</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Marwa Saeed</td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Mariam Ahmed</td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Hossam Mostafa</td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Ahmed Walid</td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Doha Yahya</td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td>Karim Adel</td>
+                    </tr>
+                </tbody>
+            </Table>
+            <form>
+                <button type="button" class="btn btn-primary " style="padding-left: 2.5rem; padding-right: 2.5rem;"><a
+                        href="#Add Reader" class="btn btn-primary">Add</a>
+                </button>
+                <button type="button" class="btn btn-primary btn-lg"
+                    style="padding-left: 2.5rem; padding-right: 2.5rem;">Update
+                </button>
+                <button type="button" class="btn btn-primary btn-lg "
+                    style="padding-left: 2.5rem; padding-right: 2.5rem;">Delete</button>
+                <button type="button" class="btn btn-primary btn-lg"
+                    style="padding-left: 2.5rem; padding-right: 2.5rem;">
+                    <a href="#List" class="btn btn-primary ">List</a>
+                </button>
+        </div>>
+        </form>
+        </div>
+    </section>
+    <!-- Add reader -->
+    <section id="Add Reader">
+        <div class="container">
+            <h2 class="text-center mb-5">
+                Add Reader
+            </h2>
+            <Table striped bordered hover variant="dark" class="table p-3" p-20>
+                <thead>
+                    <tr>
+                        <th> Number </th>
+                        <th>Reader_Name</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </Table>
+            <form>
+                <div class="text-center text-lg-start mt-4 pt-2">
+                    <button type="button" class="btn btn-primary btn-lg"
+                        style="padding-left: 2.5rem; padding-right: 2.5rem;"><a href="#Manage_Reader"
+                            class="btn btn-primary btn-lg">Add</a></button>
+                </div>
+            </form>
+
+    </section>
+
+    <!-- Request  -->
+    <section id="Add Reader">
+        <div class="container">
+            <h2 class="text-center mb-5">
+                Request
+            </h2>
+            <Table striped bordered hover variant="dark" class="table p-3" p-20>
+                <thead>
+                    <tr>
+                        <th> Number </th>
+                        <th>Reader_Name</th>
+                        <th>Book_Name</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                    <tr>
+                        <td>6</td>
+                        <td></td>
+                        <td></td>
+                    </tr>
+                </tbody>
+            </Table>
+            <form>
+                <div class="text-center text-lg-start mt-4 pt-2">
+                    <button type="button" class="btn btn-primary btn-lg"
+                        style="padding-left: 2.5rem; padding-right: 2.5rem;"><a href="#History of Request"
+                            class="btn btn-primary btn-lg">Request</a></button>
+                </div>
+            </form>
+
+    </section>
+    <!-- view chapter -->
+    <section id="Chapter" class="py-5 bg-dark text-white">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-md">
+                    <img src="/img/chapters.svg" alt="" class="img-fluid">
+                </div>
+                <div class="col-md py-4">
+                    <h2>View Chapters</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est porro eos incidunt omnis. Soluta,
+                        qui accusamus iusto quod tempora hic illo. Facere explicabo provident corporis suscipit ratione
+                        officiis repellendus ipsa!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo consequuntur ipsum quidem ex
+                        reprehenderit impedit ullam odio. Expedita, molestiae voluptates.</p>
+                
+                        <button class="btn btn-info"><a href="#Books" class="btn btn-info"> Go to book</a></button>    
+                    </div>
+            </div>
+        </div>
+    </section>
+    <!-- Next -->
+    <section id="Reader" class="py-5 bg-light text-dark">
+        <div class="container">
+            <div class="row align-items-center justify-content-center flex-row-reverse">
+                <div class="col-md">
+                    <img src="img/chapters.svg" alt="" class="img-fluid">
+                </div>
+                <div class="col-md py-4">
+                    <h2>where to go next</h2>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Est porro eos incidunt omnis. Soluta,
+                        qui accusamus iusto quod tempora hic illo. Facere explicabo provident corporis suscipit ratione
+                        officiis repellendus ipsa!</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo consequuntur ipsum quidem ex
+                        reprehenderit impedit ullam odio. Expedita, molestiae voluptates.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FAQ -->
+    <section id="Request" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-3">
+                Frequentily Asked Questions
+            </h2>
+            <div class="accordion accordion-flush" id="bt-faq">
+                <div class="accordion-item">
+                    <h5 class="accordion-header" id="question-one">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#answer-one">Question One</button>
+                    </h5>
+                    <div class="accordion-collapse collapse
+                        px-4 py-4" id="answer-one" data-bs-parent="#bt-faq">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis qui voluptatum dolores.
+                    </div>
+                </div>
+
+                <div class="accordion-item">
+                    <h5 class="accordion-header" id="question-two">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#answer-two">
+                            Question two
+                        </button>
+                    </h5>
+                    <div class="accordion-collapse collapse px-4 by-4" id="answer-two" data-bs-parent="#bt-faq">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis qui voluptatum dolores.
+                    </div>
+                    <div class="accordion-item">
+                        <h5 class="accordion-header" id="question-three">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#answer-three">Question three</button>
+                        </h5>
+                        <div class="accordion-collapse collapse
+                        px-4 py-4" id="answer-three" data-bs-parent="#bt-faq">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis qui voluptatum dolores.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- forget password -->
+    <section id="Request" class="py-5">
+        <div class="container">
+            <div class="wrapper wrapperPadding forgotPassword">
+                <h1>Forgot Your Password?</h1>
+                <p class="title">
+                    To reset your password, please enter your Website.com username.
+                    <br>
+                    Website.com will send the password reset instructions to the email address for this account.
+                    <br><br>
+                    If you don't know the username or your email address is no longer valid, please <a tabindex="3"
+                        href="https://www.website.com/contact-us/">Contact Us</a> for further assistance.
+                </p>
+                <form method="post" name="forgotPassword-form" id="forgotPassword-form" autocomplete="off"
+                    class="formField">
+                    <fieldset>
+                        <label for="username" class="title">Username</label>
+                        <input name="username" id="username" maxlength="100" tabindex="1">
+                        <div class="captcha">
+                            <div id="captchaBlock">
+                                <div style="width: 304px; height: 78px;">
+                                    <div><iframe title="reCAPTCHA"
+                                            src="https://www.google.com/recaptcha/api2/anchor?ar=1&amp;k=6LfYcRgTAAAAABhLQ2b8cIxWvsVHEEzoXNcIfk1a&amp;co=aHR0cHM6Ly93d3cud2Vic2l0ZS5jb206NDQz&amp;hl=ar&amp;v=NZrMWHVy58-S9gVvad9HVGxk&amp;theme=white&amp;size=normal&amp;cb=1956bkuk3s7k"
+                                            width="304" height="78" role="presentation" name="a-q6uhprb3mfn9"
+                                            frameborder="0" scrolling="no"
+                                            sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-top-navigation allow-modals allow-popups-to-escape-sandbox"></iframe>
+                                    </div><textarea id="g-recaptcha-response" name="g-recaptcha-response"
+                                        class="g-recaptcha-response"
+                                        style="width: 250px; height: 40px; border: 1px solid rgb(193, 193, 193); margin: 10px 25px; padding: 0px; resize: none; display: none;"></textarea>
+                                </div><iframe style="display: none;"></iframe>
+                            </div>
+                        </div>
+                        <button tabindex="2" id="sendResetPasswordInstructions" title="Send Reset Password Instructions"
+                            type="button" class="submitBtn"><a href="#About">Submit</a></button>
+                    </fieldset>
+                    <input id="fp3DBD6E22-155D-02AB-4F6B70C2358BC2E4" type="hidden" name="formfield1234567892"
+                        class="cffp_kp" value="">
+                    <span style="display:none">Leave this field empty <input id="fp3DBD6E23-155D-02AB-4F93D695537AAC09"
+                            type="text" name="formfield1234567894" value=""></span>
+                </form>
+                <br><br><br>
+            </div>
+        </div>
+    </section>
+
+    <!-- footer -->
+
+    <footer class="py-5 bg-dark text-white text-center <!--position-relative--> ">
+        <div class="container">
+            <p class="lead">
+                Copyright &copy; 2023 Nour
+            </p>
+            <a href="#" class="position-absolute bottom-0 end-0 p-3">
+                <i class="bi bi-arrow-up-circle h2">
+                    
+                </i>
+            </a>
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    </div>
+</body>
+
+</html>
